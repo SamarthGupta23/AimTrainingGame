@@ -4,9 +4,9 @@ void Game::initVariables()
 {
 	this->window = nullptr;
 	this->points = 0;
-	this->enemySpawnTimerMax = 10.f;
+	this->enemySpawnTimerMax = 30.f;
 	this->enemySpawnTimer = this -> enemySpawnTimerMax; // stars at max to load an enemy and resets to 0
-	this->maxEnemies = 10;
+	this->maxEnemies = 7;
 	this->health = 20;
 	this->endGame = false;
 }
